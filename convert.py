@@ -24,4 +24,4 @@ for val in ["usd", "eur"]:
     s3 = boto3.resource("s3")
 
     # Upload the CSV file to S3
-    s3.Bucket("myfirstdefaultbucket").upload_file(csv_file, csv_file)
+    s3.Bucket("fightingmyself").upload_file(csv_file, csv_file)
